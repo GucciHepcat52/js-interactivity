@@ -8,8 +8,8 @@ const addMovie = (event) => {
 
   movieTitle.textContent = inputField.value;
   movieTitle.addEventListener("click", crossOffMovie);
-
   movie.appendChild(movieTitle);
+  
   let deleteBtn = document.createElement("button");
   deleteBtn.textContent = "X";
   deleteBtn.addEventListener("click", deleteMovie);
